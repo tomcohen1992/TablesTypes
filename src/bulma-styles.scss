@@ -1,0 +1,40 @@
+// Changing bulma variables and adding global styles.
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #a59ad7;
+$pink: #f376c2;
+$blue: #37c7f2;
+$light-red: #fff3f3;
+$green: #0bf387;
+$light: #fafcff;
+$table_main-color: rgb(118, 118, 118);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $purple;
+$link: $pink;
+
+// Update some of Bulma's component variables
+$body-background-color: $light;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-background-color: #f3f5ff;
+$input-shadow: none;
+$pagination-color: $light;
+$pagination-hover-color: $table_main-color;
+$table-foot-cell-color: $light;
+
+th {
+  color: $table_main-color !important;
+}
+thead {
+  th {
+    position: sticky;
+    top: 0px;
+  }
+}

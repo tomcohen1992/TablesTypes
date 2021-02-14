@@ -1,0 +1,35 @@
+@import "./bulma-styles.scss";
+
+html, body, main {
+  height: 100%;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+  background: #2f3542;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  color: white;
+  padding-left: 30px;
+}
+
