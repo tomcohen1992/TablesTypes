@@ -35,5 +35,3 @@ If you still feel that I did not understand one of the requirement and / or you 
 
 
 ENJOY!
-
-"# TablesTypes" 
