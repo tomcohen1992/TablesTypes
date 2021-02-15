@@ -25,6 +25,8 @@ paginator info:
 ---- max available items is 100 (this api does not support to send more).
 ---- limit is 20
 
+ -- i fire any request to server with small ms delay, to show loading indicatore more clearly.
+
 Also, in INFINITE SCROLL, I did not understand the requirement to display the new data at the top, when a user scrolls down (as on Facebook), 
 the data is added from below and not from above, functionally there is no difference for me, I can implement both in - infinite-table.component.ts line 73.
 
